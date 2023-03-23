@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">trivia</string>
+    <string name="title_label_value">trivia game</string>
+    <string name="start_button_value">play</string>
+</resources>
