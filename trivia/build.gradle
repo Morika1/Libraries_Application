@@ -30,6 +30,8 @@ android {
             buildConfigField('String', 'BaseUrl', '"https://apidemo."')
 
             addConstantTo(owner,"WEATHER_API_KEY", "DEF1")
+            addConstantTo(owner,"AD_MOB_KEY", "THEAD2")
+
 
         }
         release {
@@ -37,6 +39,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
             addConstantTo(owner,"WEATHER_API_KEY", "DEF_TRUE1")
+            addConstantTo(owner,"AD_MOB_KEY", "THEAD_TRUE2")
+
         }
     }
     compileOptions {

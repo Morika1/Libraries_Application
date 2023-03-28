@@ -11,8 +11,8 @@ import com.google.android.material.textview.MaterialTextView;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private MaterialTextView home_LBL_title;
     private MaterialButton home_BTN_start;
+    private MaterialTextView home_LBL_ad;
 
 
     @Override
@@ -22,6 +22,8 @@ public class HomeActivity extends AppCompatActivity {
 
         findViews();
         initViews();
+
+        home_LBL_ad.setText(App_Parent.adid);
     }
 
 
@@ -37,8 +39,8 @@ public class HomeActivity extends AppCompatActivity {
 
     private void findViews() {
 
-        home_LBL_title = findViewById(R.id.home_LBL_title);
         home_BTN_start = findViewById(R.id.home_BTN_start);
+        home_LBL_ad = findViewById(R.id.home_LBL_ad);
 
 
 

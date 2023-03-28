@@ -10,7 +10,7 @@ public class App extends App_Parent {
 
     @Override
     protected String getAdMobBannerID() {
-        return null;
+        return BuildConfig.AD_MOB_KEY;
     }
 
     @Override
